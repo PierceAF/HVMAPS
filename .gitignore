@@ -1,4 +1,6 @@
 .vscode
 .venv
 
+Code/User/users.ps1
+
 Data/**/*.csv
