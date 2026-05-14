@@ -14,7 +14,7 @@ Had Physics IT install:
 
 ## April 23, 2026
 
-Added device manuals to ``/Documents/HVMAPS`` folder
+Added device manuals to ``~/Documents/HVMAPS`` folder
 
 Installed some basic VS Code extensions
 
@@ -90,3 +90,9 @@ Installed [TSP Toolkit](https://www.tek.com/en/manual/tsp-toolkit-quick-start-gu
 Have to log out of GitHub.com for VS Code to not allow sign in without password
 
 Keithley firmware is up to date (1.7.16)
+
+## May 13, 2026
+
+Created git repository
+
+Set up ability to switch between git users on the Lab PC with [newuser.ps1](/Code/User/newuser.ps1) and [whoami.ps1](/Code/User/whoami.ps1)
