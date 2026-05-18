@@ -96,3 +96,14 @@ Keithley firmware is up to date (1.7.16)
 Created git repository
 
 Set up ability to switch between git users on the Lab PC with [newuser.ps1](/Code/User/newuser.ps1) and [whoami.ps1](/Code/User/whoami.ps1)
+
+## May 14, 2026
+
+Updated README
+
+* Create and switch to new branch
+* Sign in/out of Lab PC
+
+## May 18, 2026
+
+Moved user profile info from whoami.ps1 to users.ps1
