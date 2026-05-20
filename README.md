@@ -13,7 +13,7 @@ Go to Settings → Billing → Education Benefits → Start an Application (give
     1. `Ctrl + j` to open bottom panel (if not already open)
     2. click Terminal (top left of bottom panel)
     3. click Launch Profile (`⏷` to the right of `+` at top right of bottom panel)
-3. Copy and paste the following into the terminal, changing both the `firstlast`'s to your name, then press Enter
+3. Copy and paste the following into the terminal, changing both the `firstlast`'s to your name (all lower case, no spaces), then press Enter
 
     ```bash
     ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_firstlast -C "firstlast"
@@ -23,7 +23,7 @@ Go to Settings → Billing → Education Benefits → Start an Application (give
 
 ### 3. [Add SSH key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-1. Copy the key to the clipboard
+1. Copy the key to the clipboard (changing `firstlast` to your name)
 
      ```bash
      clip < ~/.ssh/id_ed25519_firstlast.pub
@@ -47,12 +47,13 @@ Go to Settings → Billing → Education Benefits → Start an Application (give
 1. In HVMAPS VS Code workspace, open PowerShell terminal
 2. Run the following, changing <> to the necessary info (do not include the characters "<" or ">" when you run the script)
     * RepoName is optional (defaults to HVMAPS). If you changed the Repo name to something else in [step 4](#4-fork-repository), include the name here.
+    * First and Last must be the same `firstlast` as in `~/.ssh/id_ed25519_firstlast` from [step 2](#2-generate-ssh-key).
 
     ```powershell
     .\Code\User\newuser.ps1 <First Name> <Last Name> <GitHub email> <GitHub username> <Repo Name>
     ```
 
-    This creates a new user profile in `\Code\User\users.ps1` and `~\.ssh\config`. Each profile is stored under `firstlast` (the First and Last Name from the previous step set to lower case and no spaces, e.g `pierceaffleck`). It configures your
+    This creates a new user profile in `\Code\User\users.ps1` and `~\.ssh\config`. Each profile is stored under `firstlast` (e.g `pierceaffleck`).  It configures your
     * name and email used for git commits
     * GitHub username and remote repository to commit to
     * SSH key path for GitHub
