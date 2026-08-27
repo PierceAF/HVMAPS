@@ -95,7 +95,7 @@ Keithley firmware is up to date (1.7.16)
 
 Created git repository
 
-Set up ability to switch between git users on the Lab PC with [newuser.ps1](/Code/User/newuser.ps1) and [whoami.ps1](/Code/User/whoami.ps1)
+Set up ability to switch between git users on the Lab PC with [newuser.ps1](./Code/User/newuser.ps1) and [whoami.ps1](./Code/User/whoami.ps1)
 
 ## May 14, 2026
 
@@ -106,4 +106,52 @@ Updated README
 
 ## May 18, 2026
 
-Moved user profile info from whoami.ps1 to users.ps1
+Moved user profile info from whoami.ps1 to users.ps1 (which is git ignored)
+
+## July 10, 2026
+
+Created Inventory excel sheet in /Equipment
+
+To do:
+
+* short R6
+* figure out how to put triax connector on J18 (CSA OUT) so that the guard does not connect to AGND
+* for J57-59, core prong looks too wide for connector strip on PCB. Maybe try to elevate the outer 4 guard prongs with solder, then connect core prong with solder
+
+## July 16, 2026
+
+Installed [UFApps Horizon Client](https://it.ufl.edu/ufapps/resources/web-access-and-desktop-client/)
+
+## August 25, 2026
+
+Received Scanning TCT
+
+* Started unpacking and setup
+  * attached handle
+  * attached hose plugs (not sure if o-ring is on right side)
+  * taped edges to prevent light entering
+
+* To remove front door on TCT:
+  1. Open door
+  2. On the hinge, locate the arrow drawn in sharpie
+  3. The arrow points to a hole. Place a flat head screwdriver in the hole and pry down. This should release the hinge.
+  4. Tilt the top of the door away from the arrow and pull the door out of the elbow joint
+  5. Rest the top of the door hing on the elbow joint above the arrow
+  6. Repeat for other side
+* Door has soft-close going down but not up, so be careful opening
+
+## August 27, 2026
+
+Continued TCT setup:
+
+* mounted optics mount, attached optic, and connected motor control cable
+* connected +12V on AM-02A to AMP PWR on box
+* connected power and USBs to step motor controllers
+
+Laser needs 220V/50Hz or 110V/50 Hz, but 220V is crossed out and 115V is written below. Need an adapter for US 120V/60Hz? Emailed Particulars.
+
+Need EU to US outlet converter
+
+may have messed up placement of insert for LEMO FA.0S
+
+Since the laser is class 3b, need to follow these [requirements](https://www.ehs.ufl.edu/departments/research-safety-services/radiation-safety/laser-safety/)
