@@ -110,17 +110,28 @@ Moved user profile info from whoami.ps1 to users.ps1 (which is git ignored)
 
 ## July 10, 2026
 
-Created Inventory excel sheet in /Equipment
+Created Inventory excel sheet in [/Equipment](./Equipment)
 
-To do:
+**To do:**
 
-* short R6
-* figure out how to put triax connector on J18 (CSA OUT) so that the guard does not connect to AGND
-* for J57-59, core prong looks too wide for connector strip on PCB. Maybe try to elevate the outer 4 guard prongs with solder, then connect core prong with solder
+- [ ] short R6
+- [x] figure out how to put triax connector on J18 (CSA OUT) so that the guard does not connect to AGND
+
+For J57-59, core prong looks too wide for connector strip on PCB. Maybe try to elevate the outer 4 guard prongs with solder, then connect core prong with solder?
+
+## July 13, 2026
+
+The plan for test board with triax connectors is get a box and mount the traix PCB connectors on the box such that they are physically floating over the test board. Then solder some wire connecting the core of the triax connector to test board pad.
 
 ## July 16, 2026
 
-Installed [UFApps Horizon Client](https://it.ufl.edu/ufapps/resources/web-access-and-desktop-client/)
+Installed [UF Apps Horizon Client](https://it.ufl.edu/ufapps/resources/web-access-and-desktop-client/)
+
+Started modeling test board in SketchUp
+
+## July 21, 2026
+
+Switched to modeling in Autodesk Inventor on UF Apps
 
 ## August 25, 2026
 
@@ -150,8 +161,33 @@ Continued TCT setup:
 
 Laser needs 220V/50Hz or 110V/50 Hz, but 220V is crossed out and 115V is written below. Need an adapter for US 120V/60Hz? Emailed Particulars.
 
-Need EU to US outlet converter
+- [x] Need EU to US outlet converter
 
-may have messed up placement of insert for LEMO FA.0S
+May have messed up placement of insert for LEMO FA.0S
 
-Since the laser is class 3b, need to follow these [requirements](https://www.ehs.ufl.edu/departments/research-safety-services/radiation-safety/laser-safety/)
+ - [ ] Since the laser is class 3b, need to follow these [requirements](https://www.ehs.ufl.edu/departments/research-safety-services/radiation-safety/laser-safety/)
+
+## August 28, 2026
+
+Particulars said laser power supply is correct one for USA
+
+## September 14, 2026
+
+Setup laser for TCT. There are two power ports (LASR PWR and BM/LAS PWR) for the laser on the power supply. Asked Particulars what the difference was
+
+## September 15, 2026
+
+Ordered new power cords to replace EU ones that came with motion table and light for TCT
+
+Ask laser safety officer about:
+
+- [x] sensor for door and interlock
+- [x] SOP
+
+## September 16, 2026
+
+Particulars says either port for laser power supply works. BM = beam monitor
+
+Laser Safety Officer (Jason Timm) said if we interlock the door to the TCT, it can be classified as Class 1 laser, so won't need safety glasses or anything.
+
+Started filling out SOP

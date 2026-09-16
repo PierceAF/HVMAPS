@@ -1,12 +1,14 @@
 # Read Me
 
-## New User Setup
+## One-time Setup
 
-### 1. Create a [GitHub Account](https://github.com/)
+### New User Setup
+
+#### 1. Create a [GitHub Account](https://github.com/)
 
 Go to Settings → Billing → Education Benefits → Start an Application (gives access to a lot of useful things like Copilot on VS Code)
 
-### 2. [Generate SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+#### 2. [Generate SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 1. Open the HVMAPS VS Code workspace (link on desktop)
 2. Open Git Bash terminal
@@ -21,7 +23,7 @@ Go to Settings → Billing → Education Benefits → Start an Application (give
 
 4. Enter a passphrase (2x)
 
-### 3. [Add SSH key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+#### 3. [Add SSH key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 1. Copy the key to the clipboard (changing `firstlast` to your name)
 
@@ -36,13 +38,13 @@ Go to Settings → Billing → Education Benefits → Start an Application (give
 5. In Key, paste the SSH key
 6. Click Add SSH key
 
-### 4. Fork Repository
+#### 4. Fork Repository
 
 1. Go to <https://github.com/PierceAF/HVMAPS>
 2. Fork the repository (or some other more up-to-date fork)
 3. Keep the Repo name HVMAPS unless you really want to change it
 
-### 5. Create User Profile on Lab PC
+#### 5. Create User Profile on Lab PC
 
 1. In HVMAPS VS Code workspace, open PowerShell terminal
 2. Run the following, changing <> to the necessary info (do not include the characters "<" or ">" when you run the script)
@@ -67,6 +69,19 @@ Go to Settings → Billing → Education Benefits → Start an Application (give
         where \<name> can be your profile name or anything else (no spaces)
     * Option 2:
         In VS Code Source Control under Repositories, click the [branch icon](https://code.visualstudio.com/docs/sourcecontrol/branches-worktrees) and Create New Branch.
+
+### Laser Training
+
+1. Read the [Laser SOP](./UF%20Laser%20Safety/Laser%20SOP.pdf)
+
+2. Note the [Laser Safety Manual](./UF%20Laser%20Safety/Laser-Safety-Manual.pdf) and [Laser Accident Emergency Procedure](./UF%20Laser%20Safety/Laser-Emergency.pdf)
+
+3. If you want to work with the TCT laser while the door is open, you need to:
+    1. take the UF laser safety [training](https://mytraining-ufshands.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D64565%26UserMode%3D0) (should be UF_EHS833a_OLT)
+
+    2. submit a [Statement of Training Form](https://www.ehs.ufl.edu/wp-content/uploads/2021/12/Statement-of-Training-Form.pdf)
+
+    3. make sure everyone in the room has done the same
 
 ## Sign in to the Lab PC
 
