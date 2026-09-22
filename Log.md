@@ -191,3 +191,10 @@ Particulars says either port for laser power supply works. BM = beam monitor
 Laser Safety Officer (Jason Timm) said if we interlock the door to the TCT, it can be classified as Class 1 laser, so won't need safety glasses or anything.
 
 Started filling out SOP
+
+## September 22, 2026
+
+Particulars said the laser is Class 1M when mounted in the optic holder. UF EHS agreed, so we do not need an interlock for the door:
+
+>Since it is a class 1M laser system "safe for all conditions when mounted in the optics", you do not need to include this in your lab's hazard assessment, and you don't need to post laser safety signage on your lab doors.  The only thing I would recommend is placing the manufacturer's Class 1M label on the outside of the enclosure (if you don't have one, you can print and post one) and having a detailed SOP that captures how to turn on and run the system from start to finish.  The main users of the system should have EHS Laser Safety training, but it would not be required for all lab workers. It is up to Dr. Barashko re: who else he would like to have the training.  
+>-Jason Timm
