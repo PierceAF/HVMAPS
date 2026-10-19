@@ -163,9 +163,16 @@ Laser needs 220V/50Hz or 110V/50 Hz, but 220V is crossed out and 115V is written
 
 - [x] Need EU to US outlet converter
 
-May have messed up placement of insert for LEMO FA.0S
+- [ ] May have messed up placement of insert for LEMO FA.0S
 
- - [ ] Since the laser is class 3b, need to follow these [requirements](https://www.ehs.ufl.edu/departments/research-safety-services/radiation-safety/laser-safety/)
+Since the laser is class 3b, need to follow these [requirements](https://www.ehs.ufl.edu/departments/research-safety-services/radiation-safety/laser-safety/)
+
+- [ ] SOP
+- [ ] Indicator light
+- [ ] interlock
+- [ ] signage
+- [ ] laser safety eye glasses
+- [ ] training
 
 ## August 28, 2026
 
@@ -198,3 +205,54 @@ Particulars said the laser is Class 1M when mounted in the optic holder. UF EHS 
 
 >Since it is a class 1M laser system "safe for all conditions when mounted in the optics", you do not need to include this in your lab's hazard assessment, and you don't need to post laser safety signage on your lab doors.  The only thing I would recommend is placing the manufacturer's Class 1M label on the outside of the enclosure (if you don't have one, you can print and post one) and having a detailed SOP that captures how to turn on and run the system from start to finish.  The main users of the system should have EHS Laser Safety training, but it would not be required for all lab workers. It is up to Dr. Barashko re: who else he would like to have the training.  
 >-Jason Timm
+
+ - [ ] Still need to do SOP
+
+## October 5, 2026
+
+From Particulars [download page](https://particulars.si/support.php?sup=downloads.html), downloaded
+
+* [laser control v2.1](./Equipment/Particulars%20Large%20Scanning%20TCT/ParticularsLaserControl-UserGuide.pdf)
+  * verified .NET was >= v4.0 (4.8.1 or later installed)
+
+* XILab driver v1.12.15 (for PSTCT)
+  * motion stage driver
+
+* [PSTCT v3.2](./Equipment/Particulars%20Large%20Scanning%20TCT/ScanTCT_DAQ-V1.81.pdf)
+  * TCT data acquisition
+  * verified:
+    * Microsoft Visual C++ >= 2008
+    * LabView Runtime 2019 installed
+    * NI-VISA driver >= v19.5 (v22.5 installed)
+
+* [TCTAnalyse v3](https://particulars.si/TCTAnalyse/TCTAnalyse-Downloads.html)
+  * ROOT-based TCT data analysis
+  * ROOT 5.34.01
+
+Looks like Oscilloscope can be controlled by GPIB through the "USB Device Port" [pg 88](./Equipment/6%20Series%20B%20Mixed%20Signal%20Oscilloscope/Manuals/4-5-6-Series-MSO_Help_077189903.pdf#page=88)
+
+Box for test board arrived.
+
+## October 7, 2026
+
+Submitted [Risk Assessment](https://it.ufl.edu/security/audiences/faculty--staff/irm/risk-requests-and-assessments/) for TCT software
+
+## October 12, 2026
+
+Machine shop needs PDFs of features and dimensions of the box.
+
+## October 13, 2026
+
+Risk Assessment complete
+
+## October 17, 2026
+
+Got some TCT test scripts (Labview_PI) from Doug Berry (FNAL)
+
+## October 19, 2026
+
+Victor had a spare [NEMA 5-15P](https://www.digikey.com/en/products/detail/unc-group-llc/PWCD-515PC13-10A-04F-BLK/12760174) (10+ Amps) power cord
+
+Still need NEMA 1-15P (2.5+ Amps)
+
+Submitted PDFs to machine shop
